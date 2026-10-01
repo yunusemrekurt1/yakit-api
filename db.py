@@ -1,8 +1,6 @@
 import sqlite3
 from datetime import datetime
 from zoneinfo import ZoneInfo
-import sqlite3
-from datetime import datetime
 
 DB = "fuel.db"
 
@@ -14,7 +12,7 @@ def tablo_olustur():
             PRIMARY KEY (firma, sehir, ilce, kod))""")
 
 def kaydet(kayitlar):
-        simdi = datetime.now(ZoneInfo("Europe/Istanbul")).isoformat(timespec="seconds")
+    simdi = datetime.now(ZoneInfo("Europe/Istanbul")).isoformat(timespec="seconds")
     with sqlite3.connect(DB) as db:
         db.executemany("""INSERT OR REPLACE INTO prices VALUES
             (:firma, :sehir, :ilce, :urun, :kod, :fiyat, :guncelleme)""",
