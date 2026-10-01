@@ -17,12 +17,13 @@ def kaydet(kayitlar):
             (:firma, :sehir, :ilce, :urun, :kod, :fiyat, :guncelleme)""",
             [{**k, "guncelleme": simdi} for k in kayitlar])
 
-def getir(sehir, ilce=None, kod=None):
+def getir(sehir, ilce=None, kod=None, firma=None):
     q, p = "SELECT * FROM prices WHERE sehir = ?", [sehir]
-    if ilce:
-        q += " AND ilce = ?"; p.append(ilce)
-    if kod:
-        q += " AND kod = ?"; p.append(kod)
+    for alan, deger in (("ilce", ilce), ("kod", kod), ("firma", firma)):
+        if deger:
+            q += f" AND {alan} = ?"
+            p.append(deger)
+    q += " ORDER BY ilce, fiyat"
     with sqlite3.connect(DB) as db:
         db.row_factory = sqlite3.Row
         return [dict(r) for r in db.execute(q, p)]

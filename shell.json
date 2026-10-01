@@ -1,0 +1,278 @@
+{
+  "products": [
+    {
+      "fepProductCode": "37  ",
+      "fepProductName": "KURSUZ 97",
+      "webProductName": "K.Benzin&nbsp;95&nbsp;Oktan</br>(TL/Lt)&nbsp;</br>Shell&nbsp;V-Power&nbsp;",
+      "genProductName": "V-Power",
+      "currCode": "TRY",
+      "productSeqHistory": 2
+    },
+    {
+      "fepProductCode": "34  ",
+      "fepProductName": "VP DIESEL",
+      "webProductName": "Motorin&nbsp;</br>(TL/Lt)&nbsp;</br>Shell&nbsp;V-Power&nbsp;Diesel&nbsp;",
+      "genProductName": "VP Diesel",
+      "currCode": "TRY",
+      "productSeqHistory": 4
+    },
+    {
+      "fepProductCode": "71  ",
+      "fepProductName": "KEROSEN",
+      "webProductName": "Gaz</br>Yagı</br>(TL/Lt)",
+      "genProductName": "Gaz Yagi",
+      "currCode": "TRY",
+      "productSeqHistory": 7
+    },
+    {
+      "fepProductCode": "72  ",
+      "fepProductName": "KALYAK",
+      "webProductName": "Kalyak</br>(TL/Kg)",
+      "genProductName": "Kalyak",
+      "currCode": "TRY",
+      "productSeqHistory": 8
+    },
+    {
+      "fepProductCode": "73  ",
+      "fepProductName": "FO6",
+      "webProductName": "Yüksek</br>Kükürtlü</br>Fuel&nbsp;Oil</br>(TL/Kg)",
+      "genProductName": "FO6",
+      "currCode": "TRY",
+      "productSeqHistory": 9
+    },
+    {
+      "fepProductCode": "75  ",
+      "fepProductName": "FO5",
+      "webProductName": "Fuel&nbsp;Oil</br>(TL/Kg)",
+      "genProductName": "FO5",
+      "currCode": "TRY",
+      "productSeqHistory": 10
+    },
+    {
+      "fepProductCode": "5   ",
+      "fepProductName": "LPG",
+      "webProductName": "Otogaz&nbsp;</br>(TL/Lt)</br>Shell&nbsp;Autogas&nbsp;LPG",
+      "genProductName": "LPG",
+      "currCode": "TRY",
+      "productSeqHistory": 11
+    }
+  ],
+  "groups": [
+    {
+      "cityCode": "006",
+      "cityName": "ANKARA",
+      "isPinned": false,
+      "pinOrder": 0,
+      "counties": [
+        {
+          "countyCode": "006018",
+          "countyName": "ALTINDAG",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006004",
+          "countyName": "BEYPAZARI",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006019",
+          "countyName": "CANKAYA",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006007",
+          "countyName": "ELMADAG",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006020",
+          "countyName": "ETIMESGUT",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08,
+            "5   ": 38.03
+          }
+        },
+        {
+          "countyCode": "006021",
+          "countyName": "GOLBASI",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006008",
+          "countyName": "GUDUL",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006011",
+          "countyName": "KAZAN",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006022",
+          "countyName": "KECIOREN",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006012",
+          "countyName": "KIZILCAHAMAM",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006023",
+          "countyName": "MAMAK",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006014",
+          "countyName": "POLATLI",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006026",
+          "countyName": "PURSAKLAR",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006015",
+          "countyName": "S.KOCHISAR",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006024",
+          "countyName": "SINCAN",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        },
+        {
+          "countyCode": "006025",
+          "countyName": "YENIMAHALLE",
+          "prices": {
+            "34  ": 98.2,
+            "37  ": 85.6,
+            "5   ": 38.03,
+            "71  ": 102.09,
+            "72  ": 71.22,
+            "73  ": 45.15,
+            "75  ": 51.08
+          }
+        }
+      ]
+    }
+  ]
+}
