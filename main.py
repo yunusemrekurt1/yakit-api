@@ -37,3 +37,14 @@ def fiyatlar(sehir: str, ilce: str | None = None, urun: str | None = None):
     if sehir not in SEHIRLER.values():
         raise HTTPException(404, "Şehir bulunamadı")
     return db.getir(sehir, tr_buyuk(ilce) if ilce else None, urun.upper() if urun else None)
+
+    import httpx
+
+@app.get("/test-shell")
+def test_shell():
+    try:
+        r = httpx.get("https://pompafiyat.turkiyeshell.com/api/Public/prices?citycode=006",
+                      headers={"User-Agent": "Mozilla/5.0"}, timeout=20)
+        return {"durum": r.status_code, "ornek": r.text[:300]}
+    except Exception as e:
+        return {"hata": str(e)}
