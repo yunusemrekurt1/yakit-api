@@ -24,7 +24,7 @@ async def lifespan(app):
 
 app = FastAPI(title="Yakıt API", lifespan=lifespan)
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def ana():
         return {"mesaj": "Yakıt API çalışıyor!", "sehirler": SEHIRLER,
             "urunler": ["BENZIN", "MOTORIN", "LPG"]}
